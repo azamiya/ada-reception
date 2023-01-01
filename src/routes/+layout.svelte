@@ -7,23 +7,18 @@
 	function handleMenuClick() {
 		isMenuShown = !isMenuShown;
 	}
+
+	function closeMenu() {
+		isMenuShown = false;
+	}
 </script>
 
-<nav class="bg-white shadow">
-	<div class="mx-auto px-4 sm:px-6 lg:px-8">
+<nav class="shadow relative z-50">
+	<div class="mx-auto px-4 sm:px-6 lg:px-8 bg-slate-700 opacity-80">
 		<div class="flex h-16 justify-between">
 			<div class="flex">
 				<div class="flex flex-shrink-0 items-center">
-					<img
-						class="block h-8 w-auto lg:hidden"
-						src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
-						alt="Your Company"
-					/>
-					<img
-						class="hidden h-8 w-auto lg:block"
-						src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
-						alt="Your Company"
-					/>
+					<p class="text-white text-sm">安谷屋家 仏前式 御招待サイト</p>
 				</div>
 				<div class="hidden sm:ml-6 sm:flex sm:space-x-8">
 					<!-- Current: "border-blue-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
@@ -106,26 +101,30 @@
 
 	<!-- Mobile menu, show/hide based on menu state. -->
 	{#if isMenuShown}
-		<div class="sm:hidden" id="mobile-menu">
+		<div class="sm:hidden absolute bg-white right-0 w-1/2" id="mobile-menu">
 			<div class="space-y-1 pt-2 pb-3">
 				<!-- Current: "bg-blue-50 border-blue-500 text-blue-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
 				<a
 					href="{base}/"
+					on:click={closeMenu}
 					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
 					>ホーム</a
 				>
 				<a
 					href="{base}/schedule"
+					on:click={closeMenu}
 					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
 					>日程</a
 				>
 				<a
 					href="#"
+					on:click={closeMenu}
 					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
 					>アクセス</a
 				>
 				<a
 					href="#"
+					on:click={closeMenu}
 					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
 					>参列者紹介</a
 				>

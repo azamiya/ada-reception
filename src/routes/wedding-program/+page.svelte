@@ -1,23 +1,10 @@
 <script>
 	import { base } from '$app/paths';
-	import Card from './card.svelte';
 </script>
 
 <div class="relative text-white mincho">
 	<div class="absolute z-20 w-full">
-		<h1 class="text-center text-lg mt-6 mb-2">参列者（加筆中）</h1>
-		<div class="grid grid-cols-1 gap-4 grid-cols-2 mx-4">
-			<Card />
-			<Card />
-			<Card />
-			<Card />
-			<Card />
-			<Card />
-			<Card />
-			<Card />
-			<Card />
-			<Card />
-		</div>
+		<h1 class="text-center text-lg mt-6 mb-2">薬師寺　仏前式　式次第（加筆中）</h1>
 	</div>
 
 	<div class="img-container absolute w-full">

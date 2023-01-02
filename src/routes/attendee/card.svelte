@@ -18,7 +18,7 @@
 		<div>
 			<span class="absolute inset-0" aria-hidden="true" />
 			<p class="text-[1rem] font-medium text-gray-900">{name}</p>
-			<p class="text-[0.75rem] font-medium text-gray-900">{kanaName}</p>
+			<p class="text-[0.6rem] font-medium text-gray-900">{kanaName}</p>
 			<p class="truncate text-sm text-gray-500">{description}</p>
 		</div>
 	</div>

@@ -4,7 +4,7 @@
 
 <div class="relative text-white mincho">
 	<div class="absolute z-20 w-full">
-		<h1 class="text-center text-lg mt-6 mb-2">INVITATION</h1>
+		<h1 class="text-center text-xl mt-6 mb-6">INVITATION</h1>
 		<p class="text-center text-sm">謹啓　寒気が身を引き締める今日この頃</p>
 		<p class="text-center text-sm mb-2">皆様にはますますご清祥のこととお慶び申し上げます</p>
 		<p class="text-center text-sm">このたび　私たちは結婚式を挙げることとなりました</p>

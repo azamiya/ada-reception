@@ -4,7 +4,7 @@
 
 <div class="relative text-white mincho">
 	<div class="absolute z-20 w-full">
-		<h1 class="text-center text-lg mt-6 mb-2">日程</h1>
+		<h1 class="text-center text-xl mt-6 mb-2">日程</h1>
 		<div class="text-left mx-4">
 			<p class="mb-4">令和5年 3月4日 土曜日</p>
 			<p class="text-lg my-1">挙式（仏前式）</p>

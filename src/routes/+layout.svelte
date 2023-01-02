@@ -13,8 +13,8 @@
 	}
 </script>
 
-<nav class="shadow relative z-50">
-	<div class="mx-auto px-4 sm:px-6 lg:px-8 bg-slate-700 opacity-80">
+<nav class="shadow relative z-50 mincho">
+	<div class="mx-auto px-4 sm:px-6 lg:px-8 bg-slate-700 opacity-80 border-[1px] border-slate-500">
 		<div class="flex h-16 justify-between">
 			<div class="flex">
 				<div class="flex flex-shrink-0 items-center">
@@ -33,14 +33,24 @@
 						>日程</a
 					>
 					<a
-						href="#"
+						href="{base}/access"
 						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
 						>アクセス</a
 					>
 					<a
-						href="#"
+						href="{base}/attendee"
 						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
 						>参列者紹介</a
+					>
+					<a
+						href="{base}/adaniya-family"
+						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+						>安谷屋家　連絡板</a
+					>
+					<a
+						href="{base}/iwasaki-family"
+						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+						>岩崎家　連絡板</a
 					>
 				</div>
 			</div>
@@ -117,16 +127,28 @@
 					>日程</a
 				>
 				<a
-					href="#"
+					href="{base}/access"
 					on:click={closeMenu}
 					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
 					>アクセス</a
 				>
 				<a
-					href="#"
+					href="{base}/attendee"
 					on:click={closeMenu}
 					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
 					>参列者紹介</a
+				>
+				<a
+					href="{base}/adaniya-family"
+					on:click={closeMenu}
+					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+					>安谷屋家　連絡板</a
+				>
+				<a
+					href="{base}/iwasaki-family"
+					on:click={closeMenu}
+					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+					>岩崎家　連絡板</a
 				>
 			</div>
 		</div>

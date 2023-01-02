@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="relative text-white">
+<div class="relative text-white mincho">
 	<div class="absolute z-20 w-full">
 		<h1 class="text-center text-lg mt-6 mb-2">INVITATION</h1>
 		<p class="text-center text-sm">謹啓　寒気が身を引き締める今日この頃</p>
@@ -19,12 +19,12 @@
 
 	<div class="img-container absolute w-full h-screen">
 		<div class="absolute z-10 w-full bg-gray-800 opacity-50 h-screen" />
-		<img class="z-0" src="{base}/images/0111.jpg" />
+		<img alt="0111" class="z-0" src="{base}/images/0111.jpg" />
 	</div>
 </div>
 
 <style>
 	div.img-container {
-		top: -4rem;
+		top: 0rem;
 	}
 </style>

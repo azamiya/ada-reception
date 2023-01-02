@@ -17,9 +17,10 @@
 		<p class="text-right text-sm mr-10">安谷屋　茜</p>
 	</div>
 
-	<div class="img-container absolute w-full h-screen">
-		<div class="absolute z-10 w-full bg-gray-800 opacity-50 h-screen" />
+	<div class="img-container absolute w-full">
+		<div class="absolute z-10 w-full bg-gray-800 opacity-50 h-[100%]" />
 		<img alt="0111" class="z-0" src="{base}/images/0111.jpg" />
+		<img alt="9435" class="z-0" src="{base}/images/9435.jpg" />
 	</div>
 </div>
 

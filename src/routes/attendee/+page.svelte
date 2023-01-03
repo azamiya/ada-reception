@@ -5,7 +5,7 @@
 
 <div class="relative text-white mincho">
 	<div class="absolute z-20 w-full">
-		<h1 class="text-center text-lg mt-6 mb-2">参列者</h1>
+		<h1 class="text-center text-xl mt-6 mb-6">参列者</h1>
 		<div class="grid grid-cols-1 gap-4 grid-cols-2 mx-4">
 			<Card
 				name="安谷屋　樹"

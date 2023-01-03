@@ -4,7 +4,7 @@
 
 <div class="relative text-white mincho">
 	<div class="absolute z-20 w-full">
-		<h1 class="text-center text-xl mt-6 mb-2">アクセス</h1>
+		<h1 class="text-center text-xl mt-6 mb-6">アクセス</h1>
 		<div class="text-left mx-4 bg-slate-500/50 border-[1px] border-slate-500 p-4">
 			<p class="text-lg mb-4">関西空港からホテル日航奈良へのアクセス</p>
 			<img alt="kanku_to_nara" class="" src="{base}/images/kanku_to_nara.jpeg" />

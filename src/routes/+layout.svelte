@@ -18,7 +18,7 @@
 		<div class="flex h-16 justify-between">
 			<div class="flex">
 				<div class="flex flex-shrink-0 items-center">
-					<p class="text-white text-sm">安谷屋家・岩崎家 仏前式 御招待サイト</p>
+					<p class="text-white text-sm">安谷屋家・岩﨑家 仏前式 御招待サイト</p>
 				</div>
 				<div class="hidden sm:ml-6 sm:flex sm:space-x-8">
 					<!-- Current: "border-blue-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->

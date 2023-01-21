@@ -83,7 +83,7 @@
 				name="新垣　早苗"
 				kanaName="あらかき　さなえ"
 				role="新郎/伯母"
-				src="{base}/images/no-image-icon.png"
+				src="{base}/images/sanae-face.png"
 			/>
 			<Card
 				name="岩﨑　渓介"
@@ -95,7 +95,7 @@
 				name="新垣　幸祐"
 				kanaName="あらかき　こうゆう"
 				role="新郎/伯父"
-				src="{base}/images/no-image-icon.png"
+				src="{base}/images/kouyu-face.png"
 			/>
 			<Card
 				name="岩﨑　玲名"

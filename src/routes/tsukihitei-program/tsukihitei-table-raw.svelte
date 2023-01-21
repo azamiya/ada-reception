@@ -3,8 +3,6 @@
 	export let time;
 	export let content;
 	export let memo;
-
-	console.log(index);
 </script>
 
 <tr class={index % 2 == 1 ? 'bg-white' : 'bg-gray-200'}>

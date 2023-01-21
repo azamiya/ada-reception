@@ -44,8 +44,8 @@
 				src="{base}/images/saemi-face.png"
 			/>
 			<Card
-				name="安谷屋　盛次郎"
-				kanaName="あだにや　せいじろう"
+				name="安谷屋 盛次郎"
+				kanaName="あだにや せいじろう"
 				role="新郎/祖父"
 				src="{base}/images/seijiro-face.png"
 			/>

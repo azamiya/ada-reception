@@ -16,7 +16,7 @@
 		{ title: 'ホーム', link: `${base}/` },
 		{ title: '日程', link: `${base}/schedule` },
 		{ title: 'アクセス', link: `${base}/access` },
-		{ title: '参列者紹介', link: `${base}/attendee` },
+		{ title: '参列者一覧', link: `${base}/attendee` },
 		{ title: '仏前式　式次第', link: `${base}/wedding-program` },
 		{ title: '仏前式の様子', link: `${base}/wedding-example` },
 		{ title: '月日亭　式次第', link: `${base}/tsukihitei-program` },
@@ -100,55 +100,14 @@
 	{#if isMenuShown}
 		<div class="sm:hidden absolute bg-white right-0 w-1/2" id="mobile-menu">
 			<div class="space-y-1 pt-2 pb-3">
-				<!-- Current: "bg-blue-50 border-blue-500 text-blue-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
-				<a
-					href="{base}/"
-					on:click={closeMenu}
-					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-					>ホーム</a
-				>
-				<a
-					href="{base}/schedule"
-					on:click={closeMenu}
-					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-					>日程</a
-				>
-				<a
-					href="{base}/access"
-					on:click={closeMenu}
-					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-					>アクセス</a
-				>
-				<a
-					href="{base}/attendee"
-					on:click={closeMenu}
-					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-					>参列者紹介</a
-				>
-				<a
-					href="{base}/wedding-program"
-					on:click={closeMenu}
-					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-					>仏前式　式次第</a
-				>
-				<a
-					href="{base}/wedding-example"
-					on:click={closeMenu}
-					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-					>仏前式の様子</a
-				>
-				<a
-					href="{base}/tsukihitei-program"
-					on:click={closeMenu}
-					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-					>月日亭　式次第</a
-				>
-				<a
-					href="{base}/tsukihitei-seats"
-					on:click={closeMenu}
-					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-					>月日亭　席次</a
-				>
+				{#each menu as m}
+					<a
+						href={m.link}
+						on:click={closeMenu}
+						class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+						>{m.title}</a
+					>
+				{/each}
 			</div>
 		</div>
 	{/if}

@@ -1,11 +1,14 @@
 <script>
-	export let name;
-	export let kanaName;
-	export let role;
-	export let src;
+	export let name = '';
+	export let kanaName = '';
+	export let role = '';
+	export let src = '';
+	export let onClick = () => {};
 </script>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div
+	on:click={onClick}
 	class="{!name &&
 		'opacity-0'} relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white/80 px-2 py-2 shadow-sm"
 >

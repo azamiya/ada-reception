@@ -1,6 +1,16 @@
 <script>
 	import { base } from '$app/paths';
 	import Card from './card.svelte';
+	import { goto } from '$app/navigation';
+
+	let count = 0;
+
+	function handleSecretClick() {
+		count++;
+		if (count > 4) {
+			goto(`${base}/mee-chans`);
+		}
+	}
 </script>
 
 <div class="relative text-white mincho">
@@ -29,6 +39,7 @@
 				name="岩﨑　雅裕"
 				kanaName="いわさき　まさひろ"
 				role="新婦/父"
+				onClick={handleSecretClick}
 				src="{base}/images/masahiro-face.png"
 			/>
 			<Card

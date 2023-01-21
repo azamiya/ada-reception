@@ -14,8 +14,8 @@
 				src="{base}/images/ada-face.png"
 			/>
 			<Card
-				name="岩崎　茜"
-				kanaName="いわさき　あかね"
+				name="安谷屋　茜"
+				kanaName="あだにや　あかね"
 				role="新婦"
 				src="{base}/images/akane-face.png"
 			/>
@@ -26,7 +26,7 @@
 				src="{base}/images/kaoru-face.png"
 			/>
 			<Card
-				name="岩崎　まさひろ"
+				name="岩﨑　雅裕"
 				kanaName="いわさき　まさひろ"
 				role="新婦/父"
 				src="{base}/images/masahiro-face.png"
@@ -38,7 +38,7 @@
 				src="{base}/images/sei-face.png"
 			/>
 			<Card
-				name="岩崎　さえみ"
+				name="岩﨑　佐枝美"
 				kanaName="いわさき　さえみ"
 				role="新婦/母"
 				src="{base}/images/saemi-face.png"
@@ -50,10 +50,10 @@
 				src="{base}/images/seijiro-face.png"
 			/>
 			<Card
-				name="岩崎　ゆうすけ"
+				name="岩﨑　裕介"
 				kanaName="いわさき　ゆうすけ"
 				role="新婦/兄"
-				src="{base}/images/no-image-icon.png"
+				src="{base}/images/yuusuke-face.png"
 			/>
 			<Card
 				name="安谷屋　米子"
@@ -62,22 +62,22 @@
 				src="{base}/images/yoneko-face.png"
 			/>
 			<Card
-				name="岩崎　みゆき"
+				name="岩﨑　美由紀"
 				kanaName="いわさき　みゆき"
 				role="新婦/義姉"
-				src="{base}/images/no-image-icon.png"
+				src="{base}/images/miyuki-face.png"
 			/>
 			<Card
 				name="安谷屋　豊"
 				kanaName="あだにや　ゆたか"
 				role="新郎/伯父"
-				src="{base}/images/no-image-icon.png"
+				src="{base}/images/yutaka-face.jpg"
 			/>
 			<Card
-				name="岩崎　なのは"
+				name="岩﨑　なの葉"
 				kanaName="いわさき　なのは"
 				role="新婦/姪"
-				src="{base}/images/no-image-icon.png"
+				src="{base}/images/nanoha-face.png"
 			/>
 			<Card
 				name="新垣　早苗"
@@ -86,10 +86,10 @@
 				src="{base}/images/no-image-icon.png"
 			/>
 			<Card
-				name="岩崎　けいすけ"
+				name="岩﨑　渓介"
 				kanaName="いわさき　けいすけ"
 				role="新婦/兄"
-				src="{base}/images/no-image-icon.png"
+				src="{base}/images/keisuke-face.png"
 			/>
 			<Card
 				name="新垣　幸祐"
@@ -98,29 +98,29 @@
 				src="{base}/images/no-image-icon.png"
 			/>
 			<Card
-				name="岩崎　れいな"
+				name="岩﨑　玲名"
 				kanaName="いわさき　れいな"
-				role="新婦/伯母"
-				src="{base}/images/no-image-icon.png"
+				role="新婦/義姉"
+				src="{base}/images/reina-face.png"
 			/>
 			<Card
 				name="上原　桜"
 				kanaName="うえはら　さくら"
 				role="新郎/従姉妹"
-				src="{base}/images/no-image-icon.png"
+				src="{base}/images/sakura-face.png"
 			/>
 			<Card
-				name="岩崎　たーくん"
-				kanaName="いわさき　たーくん"
+				name="岩﨑　岳流"
+				kanaName="いわさき　たける"
 				role="新婦/甥"
-				src="{base}/images/no-image-icon.png"
+				src="{base}/images/takeru-face.png"
 			/>
-			<Card name="" kanaName="" role="" src="" />
+			<Card name="上原　憂也" kanaName="" role="新郎/従兄" src="{base}/images/yuuya-face.png" />
 			<Card
-				name="岩崎　はるくん"
-				kanaName="いわさき　はるくん"
+				name="岩﨑　陽"
+				kanaName="いわさき　はる"
 				role="新婦/甥"
-				src="{base}/images/no-image-icon.png"
+				src="{base}/images/haru-face.png"
 			/>
 		</div>
 	</div>

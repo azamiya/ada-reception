@@ -7,7 +7,7 @@
 	<div class="absolute z-20 w-full">
 		<h1 class="text-center text-lg mt-6 mb-2">月日亭　小宴　式次第</h1>
 
-		<div class="m-2">
+		<div class="m-4">
 			<TsukihiteiTable />
 		</div>
 	</div>

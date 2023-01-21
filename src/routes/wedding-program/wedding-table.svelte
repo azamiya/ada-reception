@@ -7,11 +7,11 @@
 			content: '参列者集合',
 			memo: '本坊事務員 ※拝観料不要、入口で仏前式とお伝えください。'
 		},
-		{ time: '10:00', content: '仏前式　開式', memo: '慈恩殿' },
+		{ time: '10:00', content: '開式', memo: '慈恩殿' },
 		{ time: '10:50', content: '移動', memo: '' },
 		{ time: '11:00', content: '写真撮影', memo: '' },
 		{ time: '11:30', content: 'お経', memo: '金堂' },
-		{ time: '12:00', content: '仏前式　閉式', memo: '' },
+		{ time: '12:00', content: '閉式', memo: '' },
 		{ time: '~', content: 'タクシーにて月日亭へ移動', memo: '月日亭手配' }
 	];
 </script>

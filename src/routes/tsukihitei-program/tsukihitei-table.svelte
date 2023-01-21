@@ -8,10 +8,11 @@
 		{ time: '', content: '開演の辞', memo: '' },
 		{ time: '', content: 'ウェルカムスピーチ', memo: '新郎' },
 		{ time: '', content: '乾杯', memo: '新郎/父' },
-		{ time: '', content: 'プロフィールムービー', memo: '安谷屋　盛、岩﨑　裕介' },
-		{ time: '', content: '親族紹介', memo: '' },
-		{ time: '', content: '記念品贈呈', memo: '' },
-		{ time: '', content: '新郎新婦挨拶', memo: '' },
+		{ time: '', content: 'プロフィールムービー', memo: '' },
+		{ time: '', content: '親族紹介', memo: '安谷屋　盛、岩﨑　裕介' },
+		{ time: '', content: '記念品贈呈', memo: '新郎、新婦' },
+		{ time: '', content: 'お手紙朗読', memo: '新郎、新婦' },
+		{ time: '', content: 'ご両家代表謝辞', memo: '新婦/父' },
 		{ time: '17:30', content: 'おひらきの辞', memo: '' },
 		{ time: '', content: '送賓', memo: 'タクシー（月日亭手配）' }
 	];

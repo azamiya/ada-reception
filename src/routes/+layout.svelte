@@ -11,6 +11,17 @@
 	function closeMenu() {
 		isMenuShown = false;
 	}
+
+	const menu = [
+		{ title: 'ホーム', link: `${base}/` },
+		{ title: '日程', link: `${base}/schedule` },
+		{ title: 'アクセス', link: `${base}/access` },
+		{ title: '参列者紹介', link: `${base}/attendee` },
+		{ title: '仏前式　式次第', link: `${base}/wedding-program` },
+		{ title: '仏前式の様子', link: `${base}/wedding-example` },
+		{ title: '月日亭　式次第', link: `${base}/tsukihitei-program` },
+		{ title: '月日亭　席次', link: `${base}/tsukihitei-seats` }
+	];
 </script>
 
 <nav class="shadow relative z-50 mincho">
@@ -21,37 +32,13 @@
 					<p class="text-white text-sm">安谷屋家・岩﨑家 仏前式 御招待サイト</p>
 				</div>
 				<div class="hidden sm:ml-6 sm:flex sm:space-x-8">
-					<!-- Current: "border-blue-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-					<a
-						href="{base}/"
-						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-						>ホーム</a
-					>
-					<a
-						href="{base}/schedule"
-						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-						>日程</a
-					>
-					<a
-						href="{base}/access"
-						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-						>アクセス</a
-					>
-					<a
-						href="{base}/attendee"
-						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-						>参列者紹介</a
-					>
-					<a
-						href="{base}/adaniya-family"
-						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-						>安谷屋家　連絡板</a
-					>
-					<a
-						href="{base}/iwasaki-family"
-						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-						>岩崎家　連絡板</a
-					>
+					{#each menu as m}
+						<a
+							href={m.link}
+							class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+							>{m.title}</a
+						>
+					{/each}
 				</div>
 			</div>
 			<div class="-mr-2 flex items-center sm:hidden">
@@ -161,18 +148,6 @@
 					on:click={closeMenu}
 					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
 					>月日亭　席次</a
-				>
-				<a
-					href="{base}/adaniya-family"
-					on:click={closeMenu}
-					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-					>安谷屋家　連絡板</a
-				>
-				<a
-					href="{base}/iwasaki-family"
-					on:click={closeMenu}
-					class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-					>岩崎家　連絡板</a
 				>
 			</div>
 		</div>

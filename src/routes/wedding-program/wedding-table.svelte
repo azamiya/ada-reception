@@ -3,16 +3,20 @@
 
 	const programs = [
 		{
-			time: '9:00',
+			time: '10:00',
 			content: '参列者集合',
-			memo: '本坊事務員 ※拝観料不要、入口で仏前式とお伝えください。'
+			memo: '本坊寺務員 ※拝観料不要、入口で仏前式とお伝えください。'
 		},
-		{ time: '10:00', content: '開式', memo: '慈恩殿' },
-		{ time: '10:50', content: '移動', memo: '' },
-		{ time: '11:00', content: '写真撮影', memo: '' },
-		{ time: '11:30', content: 'お経', memo: '金堂' },
-		{ time: '12:00', content: '閉式', memo: '' },
-		{ time: '~', content: 'タクシーにて月日亭へ移動', memo: '月日亭手配' }
+		{ time: '10:30', content: '挙式開始', memo: '慈恩殿にて' },
+		{ time: '11:30', content: '集合写真撮影', memo: '玄奘塔前にて' },
+		{ time: '12:00', content: '結婚奉告', memo: '金堂にて' },
+		{ time: '12:30', content: 'スナップ写真撮影', memo: '金堂にて' },
+		{ time: '13:00', content: '本坊へ戻る', memo: '' },
+		{
+			time: '',
+			content: 'タクシーにて月日亭へ移動',
+			memo: '月日亭手配　ブライダルカー1台、タクシー6台'
+		}
 	];
 </script>
 

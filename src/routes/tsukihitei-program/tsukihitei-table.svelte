@@ -2,8 +2,15 @@
 	import TsukihiteiTableRaw from './tsukihitei-table-raw.svelte';
 
 	const programs = [
-		{ time: '13:00', content: 'ロケーションフォト撮影', memo: '月日亭' },
-		{ time: '14:00', content: '開宴', memo: '' },
+		{
+			time: '13:00',
+			content: '薬師寺からタクシー移動',
+			memo: 'イベントで奈良公園混んでいる可能性あり'
+		},
+		{ time: '13:45', content: '月日亭到着', memo: '控室に軽食を用意（三笠、柿の葉寿司、お茶）' },
+		{ time: '14:00', content: 'ロケーションフォト撮影', memo: '新婦は白無垢にて' },
+		{ time: '15:00', content: '撮影終了、お色直し', memo: '' },
+		{ time: '15:30', content: '開宴', memo: '' },
 		{ time: '', content: '新郎新婦入場', memo: '' },
 		{ time: '', content: '開演の辞', memo: '' },
 		{ time: '', content: 'ウェルカムスピーチ', memo: '新郎' },
@@ -11,10 +18,10 @@
 		{ time: '', content: 'プロフィールムービー', memo: '' },
 		{ time: '', content: '親族紹介', memo: '安谷屋　盛、岩﨑　裕介' },
 		{ time: '', content: '記念品贈呈', memo: '新郎、新婦' },
-		{ time: '', content: 'お手紙朗読', memo: '新郎、新婦' },
+		{ time: '', content: 'お手紙朗読', memo: '新婦' },
 		{ time: '', content: 'ご両家代表謝辞', memo: '新婦/父' },
 		{ time: '17:30', content: 'おひらきの辞', memo: '' },
-		{ time: '', content: '送賓', memo: 'タクシー（月日亭手配）' }
+		{ time: '', content: '送賓', memo: 'タクシー6台 月日亭手配' }
 	];
 </script>
 

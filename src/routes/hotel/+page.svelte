@@ -29,7 +29,7 @@
 			<p class="text-sm mb-2">安谷屋豊様：スタンダードツイン 1名</p>
 			<p class="text-sm mb-2">新垣早苗様：スタンダードツイン 2名</p>
 			<p class="text-sm mb-2">上原さくら様：スタンダードツイン 2名</p>
-			<p class="text-sm mb-8">安谷屋盛：ダイワロイネットホテル 1名（打ち合わせのため別ホテル）</p>
+			<p class="text-sm mb-8">安谷屋盛様：ダイワロイネットホテル 1名（打ち合わせのため別ホテル）</p>
 			<p class="mb-2">岩崎家</p>
 			<p class="text-sm mb-2">岩﨑雅裕様：スタンダードツイン 2名</p>
 			<p class="text-sm mb-2">岩﨑裕介様：ミドルツイン 大人2名 未就学児1名</p>

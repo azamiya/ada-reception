@@ -16,6 +16,7 @@
 		{ title: 'ホーム', link: `${base}/` },
 		{ title: '日程', link: `${base}/schedule` },
 		{ title: 'アクセス', link: `${base}/access` },
+		{ title: 'ホテル情報', link: `${base}/hotel` },
 		{ title: '参列者一覧', link: `${base}/attendee` },
 		{ title: '仏前式　式次第', link: `${base}/wedding-program` },
 		{ title: '仏前式の様子', link: `${base}/wedding-example` },
